@@ -1,0 +1,16 @@
+symbols:
+  - market: TRUEFX
+    time: GMT
+    symbols:
+      - name: AUDUSD
+      - name: EURGBP
+      - name: EURUSD
+      - name: GBPUSD
+      - name: NZDUSD
+      - name: USDCAD
+      - name: USDCHF
+      - name: USDJPY
+actions:
+  - using: truefx
+    actions:
+      - name: import
